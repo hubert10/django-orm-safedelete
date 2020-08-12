@@ -2,7 +2,7 @@
 Django ORM Safe Delete
 ========================
 
-This project show how you can safely delete Django Objects. It also gives the ability to restore or undelete soft-deleted instances. By default, Django Admin lets us use `delete selected` action to remove objects, I have globally disabled this action, included an three custom actions `Restore deleted Objects` for restoring, `Delete temporary Objects`, for soft delete and `Delete permanently Objects` for permanent delete.
+This project shows how you can safely delete Django Objects. It also gives the ability to restore or undelete soft-deleted instances. By default, Django lets you use `delete selected` action to remove objects, I have globally disabled this action, and I included three custom actions: `Restore deleted Objects` for restoring, `Delete temporary Objects`, for soft delete and `Delete permanently Objects` for permanent delete.
 This app can be run using docker.
 
 Prerequisites
