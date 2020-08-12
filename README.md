@@ -26,6 +26,10 @@ To test signup on browser, go to:
 `http://localhost:8000/admin/`
 for soft delete objects:
 
+.. image:: https://github.com/hubert10/django-orm-safedelete/blob/master/soft-restore-actions.jpg
+   :width: 908
+   :height: 557
+   
 ## Links
 
 Check out official documentation to this project:
