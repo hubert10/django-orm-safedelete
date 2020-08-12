@@ -19,16 +19,15 @@ Steps to build, and run project:
 5. `docker-compose exec web python manage.py migrate`
 6. `docker-compose exec web python manage.py createsuperuser`
 
-To test signup on browser, go to:
-
 ## Examples of usage
 
+To test soft-delete django Objects on Admin Panel, go to:
+
 `http://localhost:8000/admin/`
-for soft delete objects:
 
 .. image:: https://github.com/hubert10/django-orm-safedelete/blob/master/soft-restore-actions.jpg
-   :width: 908
-   :height: 557
+   :width: 850
+   :height: 500
    
 ## Links
 
