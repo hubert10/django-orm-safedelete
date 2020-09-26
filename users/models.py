@@ -1,9 +1,9 @@
 from django.db import models
 from django.contrib.auth.models import AbstractUser
 from django.utils.translation import ugettext_lazy as _
-from users.packages.django_permanent.query import DeletedQuerySet, PermanentQuerySet
-from users.packages.django_permanent.models import PermanentModel
-from users.packages.django_permanent.managers import MultiPassThroughManager
+from users.packages.query import DeletedQuerySet, PermanentQuerySet
+from users.packages.models import PermanentModel
+from users.packages.managers import MultiPassThroughManager
 from users.managers import CustomUserManager
 
 
