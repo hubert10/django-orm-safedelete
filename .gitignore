@@ -1,0 +1,11 @@
+env
+ENV
+dist
+MANIFEST
+*.pyc
+*.egg*
+build/
+src/
+.notebook/
+.vscode/
+.metals/
